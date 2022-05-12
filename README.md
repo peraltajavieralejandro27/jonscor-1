@@ -1,4 +1,4 @@
-# Ejercicios
+# Ejercicios Javascript
 #### _Resolver los ejercicios y hacer commits con la descripcion del desarrollo lo mas explicita posible y en ingles_
 
 1. Declarar un array de valores numericos (solo valores como por ejemplo [1, 2, 3, 4]). De la mejor manera posible filtrar los valores devolviendo solamente los multiplos de 2.
