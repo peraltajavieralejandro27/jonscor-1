@@ -1,0 +1,31 @@
+//Ejercicio 4
+//Define a constructor function objects of the type Usuario
+function Usuario( id, username, name, age, email, password){
+    this.id = id;
+    this.username = username;
+    this.name = name;
+    this.age = age;
+    this.email = email;
+    this.password = password;
+}
+//Declare an empty array to contain Usuario objects
+let arrayDeUsuarios = [];
+//Create ten Usuario objects with its properties and store them in arrayDeUsuarios
+arrayDeUsuarios[0] = new Usuario(1, 'userone', 'adrian', 15, 'adrian@mail.com', 'adrian15');
+arrayDeUsuarios[1] = new Usuario(2, 'usertwo', 'benjamin', 16, 'benjamin@mail.com', 'benjamin16');
+arrayDeUsuarios[2] = new Usuario(3, 'userthree', 'camilo', 17, 'camilo@mail.com', 'camilo17');
+arrayDeUsuarios[3] = new Usuario(4, 'userfour', 'damian', 22, 'damian@mail.com', 'damian22');
+arrayDeUsuarios[4] = new Usuario(5, 'userfive', 'ernesto', 23, 'ernesto@mail.com', 'ernesto23');
+arrayDeUsuarios[5] = new Usuario(6, 'usersix', 'fabian', 35, 'fabian@mail.com', 'fabian35');
+arrayDeUsuarios[6] = new Usuario(7, 'userseven', 'gabriel', 37, 'gabriel@mail.com', 'gabriel37');
+arrayDeUsuarios[7] = new Usuario(8, 'usereight', 'homero', 39, 'homero@mail.com', 'homero39');
+arrayDeUsuarios[8] = new Usuario(9, 'usernine', 'isaias', 39, 'isaias@mail.com', 'isaias39');
+arrayDeUsuarios[9] = new Usuario(10, 'userten', 'jose', 40, 'jose@mail.com', 'jose40');
+
+//Run throw arrayDeUsuarios and show data only if age is bigger than or equal to 18.
+for(let i = 0; i < 10; i++){
+    if(arrayDeUsuarios[i].age >= 18){
+    console.log(arrayDeUsuarios[i]);
+    }
+}
+
